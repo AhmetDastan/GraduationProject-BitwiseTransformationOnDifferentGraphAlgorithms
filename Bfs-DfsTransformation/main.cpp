@@ -25,7 +25,7 @@ int main() {
     file2.close();
     int graphSize[6] = { 50, 100, 500, 1000, 2000, 5000};
 
-    for(int i = 0; i < 6;++i){
+    for(int i = 0; i < 5;++i){
         string filename = "graphs/graph" + to_string(graphSize[i]) + ".txt";
 
         ofstream file2("result.txt",  ios::app);
@@ -56,7 +56,7 @@ int main() {
     }
     file1 << "DFS Graph Comparison with -O3 Flag Microsecond Results" << endl;
     file1.close();
-    for(int i = 0; i < 6; ++i){
+    for(int i = 0; i < 5; ++i){
         string filename = "graphs/graph" + to_string(graphSize[i]) + ".txt";
 
         ofstream file2("result.txt",  ios::app);
