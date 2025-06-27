@@ -1,0 +1,50 @@
+BFS Graph Comparison with -O3 Flag Microsecond Results
+graph50
+BGL : 1.5918e-06 s
+Custom : 2.4817e-06 s
+Btw : 1.7794e-06 s
+graph100
+BGL : 9.9348e-06 s
+Custom : 9.6074e-06 s
+Btw : 1.33952e-05 s
+graph500
+BGL : 8.67394e-05 s
+Custom : 8.85742e-05 s
+Btw : 0.000160589 s
+graph1000
+BGL : 0.000274192 s
+Custom : 0.000224386 s
+Btw : 0.000547852 s
+graph2000
+BGL : 0.00144988 s
+Custom : 0.000835667 s
+Btw : 0.00165791 s
+graph5000
+BGL : 0.00666317 s
+Custom : 0.00480798 s
+Btw : 0.0105863 s
+DFS Graph Comparison with -O3 Flag Microsecond Results
+graph50
+BGL:6.084e-06 s
+Adj List: 4.9751e-06 s
+Btw : 2.8413e-06 s
+graph100
+BGL:2.47206e-05 s
+Adj List: 2.73515e-05 s
+Btw : 1.91016e-05 s
+graph500
+BGL:0.000222565 s
+Adj List: 0.000257797 s
+Btw : 0.000166298 s
+graph1000
+BGL:0.000797548 s
+Adj List: 0.000917577 s
+Btw : 0.000672591 s
+graph2000
+BGL:0.00349693 s
+Adj List: 0.00488046 s
+Btw : 0.00294804 s
+graph5000
+BGL:0.0185964 s
+Adj List: 0.0226524 s
+Btw : 0.0170632 s
